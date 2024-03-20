@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+.navbar {
+  background-color: black;
+  overflow: none;
+ 
+
+
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 30px;
+  font-size: 15px;
+  margin-right: 3%;
+  
+
+
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+ 
+  z-index: 1000; /* Adjust z-index as needed */
+}
+
+.active{
+  background-color: #0069d9;
+  max-width: 70%;
+  border-radius: 20px;
+
+  }
+
+img
+{
+    width: 40%;
+    max-width: 200px;
+    margin-left: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: relative;
+    margin-top:10px;
+    margin-top: 2px;
+}
+
+.navbar a:hover {
+background-color: blue;    
+border-radius: 2%;
+
+
+}
+
+
+
+.container img{
+  max-width: 100%; /* Ensures the image doesn't exceed its container */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Removes extra space below image */
+  margin: 0 auto; 
+  margin-right: 10%;
+  margin-top: 7%;
+  
+  
+}
+ 
+
+
+.container p{
+  color:white; 
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width:100%;
+  height: 50%;
+  font-size:50px;
+  color: white; /* Text color */
+  padding: 10px;
+  text-align: center;
+  font-size: 5.25rem;
+ }
+
+ .container h4{
+  
+  color:white; 
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width:200%;
+  height: 50%;
+  font-size:4px;
+  color: white; /* Text color */
+  padding: 10px;
+  text-align: center;
+  font-size: 1.25rem;
+  margin-top: 15%;
+  font-family: Montserrat, sans-serif;
+  position: absolute;
+
+ }
+
+
+
+ .main p{
+
+  background-color: white;
+ color:white; 
+ position: absolute;
+ width:100%;
+ height: 50%;
+ color: black; /* Text color */
+ padding: 30px;
+ padding-top: 5%;
+ 
+
+  text-align: center;
+}
+
+
+
+
+.footer {
+  background-color:black;
+  color: #fff;
+  text-align: center;
+ 
+
+  width: 10%;
+  height: 10;
+}
+
+
+#animatedElement {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  transition: transform 1s ease;
+}
+
+
+/* Add these styles for animation */
+.animate-fade-slide {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.animate-rotate {
+  opacity: 0;
+  transform: rotate(-20deg);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-content {
+  text-align: center;
+}
+

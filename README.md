@@ -1,1 +1,1 @@
-# javascript functions
+# script
